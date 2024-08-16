@@ -1,0 +1,31 @@
+.panel {
+    background-color: #f9f9f963;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.section {
+    height: 360px;
+    overflow: scroll;
+    position: relative;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    background-color: #68cf75;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    width: 10rem;
+}
