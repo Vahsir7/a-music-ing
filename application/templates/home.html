@@ -4,8 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>amusicing</title>
+    <!--Boostrap link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    
+    <div class="container-fluid">
+        <!--Side nav bar-->
+        <div class="row">
+            <div class="col-md-2">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active">Profile</a>
+                    <a href="#" class="list-group-item list-group-item-action">Songs</a>
+                    <a href="#" class="list-group-item list-group-item-action">Playlists</a>
+                    <a href="#" class="list-group-item list-group-item-action">Contact</a>
+                </div>
+            </div>
+            <!--Main content-->
+            <div class="col-md-9">
+                <div class="jumbotron">
+                    <h1>Welcome to {{username}}</h1>
+                </div>
+                <div class="row">
+                    <div class="section">
+                        <h2>Recently Played</h2>
+                        <div class="col-md-2">
+                            <div class="card" style="width: 10rem;">
+                                <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{music.name}}</h5>
+                                    <p class="card-text">{{music.singer}}</p>
+                                    <a href="#" class="btn btn-primary">Play</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card" style="width: 10rem;">
+                                <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{music.name}}</h5>
+                                    <p class="card-text">{{music.singer}}</p>
+                                    <a href="#" class="btn btn-primary">Play</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 10rem;">
+                                <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{music.name}}</h5>
+                                    <p class="card-text">{{music.singer}}</p>
+                                    <a href="#" class="btn btn-primary">Play</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+    </div>
 </body>
 </html>
